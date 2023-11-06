@@ -1,0 +1,63 @@
+
+body, h1, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.w3_navigation {
+    background-color: #f8bee7;
+    color: white;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.centered-menu ul {
+    list-style-type: none;
+}
+
+.centered-menu li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.centered-menu button {
+    background-color: #693b5c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+centered-menu button:hover {
+    background-color: #555;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.image {
+    background-color: #693b5c;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+image h1 {
+    font-size: 24px;
+    color: #afd9f5;
+}
+
+image p {
+    font-size: 16px;
+}

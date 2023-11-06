@@ -1,0 +1,64 @@
+
+body, h1, h4, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+
+.w3_navigation {
+    background-color: #f8bee7;
+    color: white;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.centered-menu ul {
+    list-style-type: none;
+}
+
+.centered-menu li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.centered-menu button {
+    background-color: #693b5c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.centered-menu button:hover {
+    background-color: #555;
+}
+
+/* Style the heading and description */
+h1 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+/* Style the image */
+img {
+    width: 100%;
+    max-width: 3000px;
+    display: block;
+    margin: 20px auto;
+}
